@@ -1,0 +1,4 @@
+dash
+voxel_world==0.1.1
+pillow
+numpy
