@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "locale": "en_CA.UTF-8",
+  "metadata": {
+    "appmode": "python-bokeh",
+    "entrypoint": "app"
+  },
+  "python": {
+    "version": "3.12.2",
+    "package_manager": {
+      "name": "pip",
+      "version": "24.0",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "2051b37ccb97d5fdee85f53d35ad85fd"
+    },
+    ".python-version": {
+      "checksum": "507c875ef079c98b6adff3a18702d4b7"
+    },
+    "app.py": {
+      "checksum": "c3e7ed7be7a1afa24789a718386a0d6c"
+    }
+  }
+}
