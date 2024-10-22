@@ -21,7 +21,9 @@ line = plot.line(x, y, line_width=2)
 
 # Example 1: Python 3.12 f-string debugging in action
 a, b = 10, 20
-print(f"f-string debugging output: {a=} {b=} {result=a + b}")
+result = a + b  # Perform the calculation separately
+print(f"f-string debugging output: {a=} {b=} {result=}")
+
 
 # Example 2: Python 3.12 Exception Groups
 def raise_exceptions():
