@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "language": "R",
+  "python": {
+    "version": "3.12",
+    "source": "requirements.txt"
+  },
+  "r": {
+    "packages": ["shiny", "reticulate"]
+  },
+  "description": "A Shiny app using both R and Python 3.12",
+  "entrypoint": "app.R"
+}
