@@ -34,15 +34,18 @@ b = 20
 result = a + b
 st.write(f"f-string debugging output: {a=} {b=} {result=}")
 
-# Example 3: Exception Groups
+# Example 3: Exception Groups in Python 3.12
 st.subheader("3. Exception Groups in Python 3.12")
 def raise_multiple_exceptions():
+    messages = []
     try:
         raise ExceptionGroup("Errors", [ValueError("Invalid value"), TypeError("Invalid type")])
     except* ValueError as e:
-        return f"Caught ValueError: {e}"
+        messages.append(f"Caught ValueError: {e}")
     except* TypeError as e:
-        return f"Caught TypeError: {e}"
+        messages.append(f"Caught TypeError: {e}")
+    
+    return "\n".join(messages)
 
 st.write(raise_multiple_exceptions())
 
