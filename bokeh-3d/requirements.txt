@@ -1,3 +1,0 @@
-bokeh
-numpy
-vis-graph3d
